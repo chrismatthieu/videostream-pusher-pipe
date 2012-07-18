@@ -26,9 +26,12 @@
   Pipe = require('pusher-pipe');
 
   client = Pipe.createClient({
-    key: '69d2536300b12f458390',
-    secret: '361e1e27c6e319420f4d',
-    app_id: '89',
+    // key: '69d2536300b12f458390',
+    // secret: '361e1e27c6e319420f4d',
+    // app_id: '89',
+    key: 'a7219b61986354337e94',
+    secret: 'c9b25ded29570be6d62d',
+    app_id: '92',
     debug: true
   });
 

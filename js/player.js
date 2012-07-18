@@ -16,7 +16,8 @@
           return window.console.log(message);
         }
       };
-      this.pusher = new Pusher('69d2536300b12f458390');
+      // this.pusher = new Pusher('69d2536300b12f458390');
+      this.pusher = new Pusher('a7219b61986354337e94');
       this.mirror = this.pusher.subscribe('mirror');
       this.mirror.bind('frame', function(data) {
         return _this.img.src = data.dataUrl;

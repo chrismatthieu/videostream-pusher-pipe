@@ -26,7 +26,8 @@
           return window.console.log(message);
         }
       };
-      this.pusher = new Pusher('69d2536300b12f458390');
+      // this.pusher = new Pusher('69d2536300b12f458390');
+      this.pusher = new Pusher('a7219b61986354337e94');
       this.pusher.back_channel.bind('ricevuto', function(data) {
         return console.log(data);
       });
